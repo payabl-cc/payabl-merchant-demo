@@ -18,6 +18,17 @@ const ExclusiveContentPage = () => {
     payabl.onAccountsChanged(isPaymentValid => {
       setIsValidated(isPaymentValid);
     });
+
+    window.addEventListener("message", event => {
+      const paymentStatus = event.data.paymentStatus;
+      if (paymentStatus === "success") {
+        setIsLoaded(false);
+        payabl.validatePayment(isPaymentValid => {
+          setIsValidated(isPaymentValid);
+          setIsLoaded(true);
+        });
+      }
+    });
   }, []);
 
   return isLoaded ? (

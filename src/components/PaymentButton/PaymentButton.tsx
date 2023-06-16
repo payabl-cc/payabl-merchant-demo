@@ -6,7 +6,7 @@ import { ReactSVG } from "react-svg";
 const PaymentButton = ({ paymentLinkId }) => {
   const openPaymentWindow = () => {
     var windowFeatures = "height=600,width=600";
-    var targetURL = `http://localhost:3000/pay?id=${paymentLinkId}`;
+    var targetURL = `http://localhost:3000/pay?id=${paymentLinkId}&externalPaymentButtonSource=true`;
 
     window.open(targetURL, "_blank", windowFeatures);
   };
