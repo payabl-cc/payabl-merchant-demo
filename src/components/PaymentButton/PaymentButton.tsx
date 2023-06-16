@@ -3,10 +3,10 @@ import * as S from "./styles";
 import BodyText from "../Styleguide/BodyText";
 import { ReactSVG } from "react-svg";
 
-const PaymentButton = ({ payment_link_id }) => {
+const PaymentButton = ({ paymentLinkId }) => {
   const openPaymentWindow = () => {
     var windowFeatures = "height=600,width=600";
-    var targetURL = `http://localhost:3000/pay?id=${payment_link_id}`;
+    var targetURL = `http://localhost:3000/pay?id=${paymentLinkId}`;
 
     window.open(targetURL, "_blank", windowFeatures);
   };
