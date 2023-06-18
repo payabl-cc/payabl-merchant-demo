@@ -4145,10 +4145,10 @@ path-type@^4.0.0:
   resolved "https://registry.yarnpkg.com/path-type/-/path-type-4.0.0.tgz#84ed01c0a7ba380afe09d90a8c180dcd9d03043b"
   integrity sha512-gDKb8aZMDeD/tZWs9P6+q0J9Mwkdl6xMV8TjnGP3qJVJ06bdMgkbBlLU8IdfOsIsFz2BW1rNVT3XuNEl8zPAvw==
 
-payabl-sdk@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/payabl-sdk/-/payabl-sdk-1.0.1.tgz#6f797b3be6014ef4e6601c7816918fbae2676297"
-  integrity sha512-MX71PBgMw5jNO8gWe1Jbj4axEe1aLU6fpw4Xvd8jMMgwsEJ3P6/+w1QbXaeNJOgOeCvMBDsRZsex6UJXOQ/jog==
+payabl-sdk@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/payabl-sdk/-/payabl-sdk-1.0.2.tgz#2d197353e1e6e93aa6e6214af18a93db3b73c648"
+  integrity sha512-LvwtrQwRQc6UbFLBl6e8Uisgx8IzNKgv0xvnJuK1jajDo9paadwrg3icU9STNs6cNbgiLlC8fwM5GBOKVQqpGA==
   dependencies:
     axios "^1.4.0"
 

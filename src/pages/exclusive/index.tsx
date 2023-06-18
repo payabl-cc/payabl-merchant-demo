@@ -18,15 +18,16 @@ const ExclusiveContentPage = () => {
     payabl.onAccountsChanged(isPaymentValid => {
       setIsValidated(isPaymentValid);
     });
-
-    window.addEventListener("message", event => {
-      const paymentStatus = event.data.paymentStatus;
+    payabl.onPaymentStatusUpdated(paymentStatus => {
       if (paymentStatus === "success") {
         setIsLoaded(false);
         payabl.validatePayment(isPaymentValid => {
           setIsValidated(isPaymentValid);
           setIsLoaded(true);
         });
+      } else if (paymentStatus === "failed") {
+        setIsLoaded(false);
+        window.alert("Payment has failed, please try again");
       }
     });
   }, []);
