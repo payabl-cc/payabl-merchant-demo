@@ -59,7 +59,7 @@ const fontWeightModifiers = {
 export const Heading = styled.p`
   margin: 0;
   font-family: "Work Sans Regular";
-  text-align: center;
+  text-align: left;
 
   ${({ color }) => css`
     color: ${color || "#ffffff"};

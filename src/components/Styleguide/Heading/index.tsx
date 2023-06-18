@@ -6,7 +6,6 @@ type HeadingProps = {
   fontStyle?: "italic";
   children: any;
   color?: string;
-  textAlign?: "center";
 };
 
 const Heading = (props: HeadingProps) => {
