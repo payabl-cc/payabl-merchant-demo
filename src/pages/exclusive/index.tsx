@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import PaymentButton from "../../components/PaymentButton/PaymentButton";
+import { PaymentButton } from "payabl-ui-library";
 import Heading from "../../components/Styleguide/Heading";
 import { payabl } from "../_app";
 import * as S from "./styles";
@@ -53,7 +53,7 @@ const ExclusiveContentPage = () => {
         </Heading>
 
         <div style={{ margin: "0.5rem 0 0.5rem 0" }} />
-        <PaymentButton paymentLinkId={paymentLinkId} />
+        <PaymentButton payment_link_id={paymentLinkId} />
       </S.Container>
     )
   ) : (
