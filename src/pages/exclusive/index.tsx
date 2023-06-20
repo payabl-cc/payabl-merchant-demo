@@ -61,19 +61,6 @@ const ExclusiveContentPage = () => {
             <S.Skeleton height="32px" width="100%" />
             <S.Skeleton height="32px" width="100%" />
             <S.Skeleton height="32px" width="100%" />
-
-            <S.Skeleton height="16px" width="50%" />
-            <S.Skeleton height="32px" width="100%" />
-
-            <S.Skeleton height="24px" width="50%" />
-            <S.Skeleton height="32px" width="100%" />
-            <S.Skeleton height="32px" width="100%" />
-            <S.Skeleton height="32px" width="100%" />
-            <S.Skeleton height="32px" width="100%" />
-
-            <S.Skeleton height="16px" width="50%" />
-            <S.Skeleton height="32px" width="100%" />
-            <S.Skeleton height="32px" width="100%" />
           </Column>
 
           <Column margin="0 0 0 1rem">
