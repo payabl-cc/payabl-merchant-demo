@@ -4145,17 +4145,17 @@ path-type@^4.0.0:
   resolved "https://registry.yarnpkg.com/path-type/-/path-type-4.0.0.tgz#84ed01c0a7ba380afe09d90a8c180dcd9d03043b"
   integrity sha512-gDKb8aZMDeD/tZWs9P6+q0J9Mwkdl6xMV8TjnGP3qJVJ06bdMgkbBlLU8IdfOsIsFz2BW1rNVT3XuNEl8zPAvw==
 
-payabl-sdk@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/payabl-sdk/-/payabl-sdk-1.0.2.tgz#2d197353e1e6e93aa6e6214af18a93db3b73c648"
-  integrity sha512-LvwtrQwRQc6UbFLBl6e8Uisgx8IzNKgv0xvnJuK1jajDo9paadwrg3icU9STNs6cNbgiLlC8fwM5GBOKVQqpGA==
+payabl-sdk@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/payabl-sdk/-/payabl-sdk-1.0.3.tgz#bc34915d5e5c34e9f85aaa4136624a70e7d8491b"
+  integrity sha512-OilvVi0U1zkffQSAholxAwYnxcBDd3ljIPnDnWTi9DIjdHLgi/DdEle1HYKYxhuh+6w7eXPpXXx1k47Oc8F7eQ==
   dependencies:
     axios "^1.4.0"
 
-payabl-ui-library@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/payabl-ui-library/-/payabl-ui-library-1.0.3.tgz#bbd6ebc5a3172a08724aeb16bc98f6dfe54056c9"
-  integrity sha512-R6vYpmLFzIo3V9+woeJTiqW1GRnohmwg54RYQr0xzwUA1s8tixCjAsTHie2F+0bPyomaWnusV/jZPPmvXyQH6Q==
+payabl-ui-library@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/payabl-ui-library/-/payabl-ui-library-1.0.6.tgz#29e3cbb81738e748e68226eb415ee7acc1f95348"
+  integrity sha512-/TcpuHVDvPAiPyHPkDaVi9Q8ovHLRHPWlSqupASeRSiwNp+vEHr09kTI0v7ZIxqfP3NcP6H6ODjGSW6d0L4dUw==
   dependencies:
     "@storybook/addon-styling" "^1.3.0"
     "@testing-library/react" "^14.0.0"
